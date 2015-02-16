@@ -61,6 +61,6 @@ function next() {
   setTransform();
 }
 
-window.addEventListener('resize', setTransform);
+window.addEventListener(setTransform);
 
 
