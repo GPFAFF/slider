@@ -1,25 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
 *{
     padding:0; 
     margin:0;
      box-sizing: border-box;
-
 }
-img{
-   margin: 0 auto;
-border: 2px solid white;
-width: 100%;
-}
-h1{
-    text-align: center;
-}
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
-
 html {
   font: 18px 'Noto Sans', Arial, sans-serif;
   background: #333;
 }
 body {
   padding: 20px;
+}
+img{
+   margin: 0 auto;
+border: 2px solid white;
+width: 100%;
 }
 h1 {
   text-align: center;
@@ -30,7 +26,7 @@ h1 {
 .container {
   display: flex;
   align-items: stretch;
-  width: 90%;
+  max-width: 90%;
   margin: auto;
 }
 .next, .previous {
